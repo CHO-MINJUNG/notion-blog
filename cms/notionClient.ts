@@ -17,7 +17,7 @@ export const getDatabaseFromNotion = async (databaseId: string) => {
     },
     sorts: [
       {
-        property: "생성일",
+        property: "Published",
         direction: "descending",
       },
     ],
