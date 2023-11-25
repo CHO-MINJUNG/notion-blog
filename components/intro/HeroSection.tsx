@@ -13,11 +13,12 @@ const HeroSection = () => {
           </span>
         </div>
 
-        <h2 className="text-6xl font-black leading-[1.2]">Hello, World!</h2>
+        <h2 className="text-6xl font-black leading-[1.2]">Hello, Everyone!</h2>
 
         <p className="text-xl text-gray-400 font-light max-w-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          explicabo ullam laudantium placeat ratione nam doloremque.
+          this is minjung cho's blog. I'm a front-end developer. I'm interested
+          in web development and design. I'm currently learning React and
+          TypeScript. I'm also interested in UI/UX design.
         </p>
 
         <div>

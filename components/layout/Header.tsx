@@ -21,7 +21,7 @@ const Header = () => {
       <header className="bg-white w-full fixed top-0 z-50">
         <nav className="p-4 flex flex-row justify-between max-w-5xl mx-auto">
           <h1 className="font-black text-4xl">
-            <Link href={"/"} legacyBehavior>MN</Link>
+            <Link href={"/"} legacyBehavior>COG</Link>
           </h1>
           <ul className="flex flex-row gap-2 items-center text-gray-600 font-medium">
             {navLinks.map(({ name, link }) => (

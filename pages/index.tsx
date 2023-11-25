@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { getDatabaseFromNotion } from '@/cms/notionClient';
 import { parseDatabaseItems } from '@/utils/parseDatabaseItems';
 import HeroSection from '@/components/intro/HeroSection';
+import CardSection from '@/components/intro/CardSection';
 
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -14,6 +15,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       databaseItems: parsedDatabaseItems,
     },
+    revalidate: 300,
   };
 };
 
@@ -25,6 +27,7 @@ const Home = ({ databaseItems }: HomeProps) => {
   return (
     <div>
       <HeroSection />
+      <CardSection cardItems={databaseItems} />
     </div>
   );
 };
